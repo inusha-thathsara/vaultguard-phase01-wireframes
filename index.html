@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VaultGuard — Phase 01 Wireframes</title>
+  <style>
+    :root { --navy:#0f2038; --mint:#3ec4a0; --slate:#94a3b8; --panel:#122844; --line:#2d4a70; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: var(--navy); color: #e8eef7; }
+    header { padding: 28px 32px; border-bottom: 1px solid var(--line); }
+    h1 { margin: 0; font-size: 28px; color: var(--mint); letter-spacing: -0.02em; }
+    .sub { color: var(--slate); max-width: 720px; line-height: 1.5; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 16px 32px; position: sticky; top: 0; background: rgba(15,32,56,.95); backdrop-filter: blur(8px); z-index: 2; border-bottom: 1px solid var(--line); }
+    nav a { color: var(--navy); background: var(--mint); text-decoration: none; padding: 8px 12px; border-radius: 8px; font-size: 13px; font-weight: 600; }
+    section { padding: 24px 32px 64px; }
+    figure { margin: 0 0 40px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+    figcaption { padding: 14px 18px; font-weight: 600; }
+    img { width: 100%; display: block; background: #f5f8fc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VaultGuard</h1>
+    <p class="sub">Duothan 6.0 · Phase 01 RECON · Mid/high-fidelity wireframes for the GCP digital banking rebuild. Use the nav to jump between frames.</p>
+  </header>
+  <nav>
+    <a href="#landing">Landing</a>
+    <a href="#login">Login</a>
+    <a href="#mfa">MFA</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#transfer">Transfer</a>
+    <a href="#history">History</a>
+    <a href="#loans">Loans</a>
+    <a href="#security">Security</a>
+    <a href="#status">Status</a>
+  </nav>
+  <section>
+    <figure id="landing"><figcaption>1 · Landing — brand-first recovery entry</figcaption><img src="01_landing.png" alt="VaultGuard landing" /></figure>
+    <figure id="login"><figcaption>2 · Secure login</figcaption><img src="02_login.png" alt="Secure login" /></figure>
+    <figure id="mfa"><figcaption>3 · MFA challenge</figcaption><img src="03_mfa.png" alt="MFA challenge" /></figure>
+    <figure id="dashboard"><figcaption>4 · Customer dashboard</figcaption><img src="04_dashboard.png" alt="Dashboard" /></figure>
+    <figure id="transfer"><figcaption>5 · Transfer / payment flow</figcaption><img src="05_transfer.png" alt="Transfer" /></figure>
+    <figure id="history"><figcaption>6 · Transaction history</figcaption><img src="06_history.png" alt="History" /></figure>
+    <figure id="loans"><figcaption>7 · Loans &amp; credit overview</figcaption><img src="07_loans.png" alt="Loans" /></figure>
+    <figure id="security"><figcaption>8 · Security &amp; recovery settings</figcaption><img src="08_security.png" alt="Security" /></figure>
+    <figure id="status"><figcaption>9 · System status</figcaption><img src="09_status.png" alt="Status" /></figure>
+  </section>
+</body>
+</html>
